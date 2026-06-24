@@ -1,0 +1,23 @@
+/* style.css */
+body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+/* Efek scroll yang halus saat menavigasi menu */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Kustomisasi interaksi tombol Figma */
+#figma-btn {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+#figma-btn:hover {
+    border-color: #a855f7; /* Mengubah border menjadi warna khas Figma/Ungu */
+    box-shadow: 0 4px 12px rgba(168, 85, 247, 0.15);
+}
+
+#figma-btn:hover i {
+    transform: scale(1.2) rotate(12deg);
+    color: #a855f7;
+}
