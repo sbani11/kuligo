@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
             console.log("Pengguna mengklik tombol untuk mencoba prototype Figma KuliGO.");
             
             // Catatan: Jika lu mau ganti link figma secara dinamis via JS, bisa pake baris di bawah ini:
-            // figmaBtn.href = "https://www.figma.com/proto/LINK_BARU_LU";
+            figmaBtn.href = "https://www.figma.com/design/In1R7znEFqNagoWJ7q4IMX/Untitled?node-id=0-1&t=qRkVkVd0AvqGu8d8-1";
         });
     }
 });
